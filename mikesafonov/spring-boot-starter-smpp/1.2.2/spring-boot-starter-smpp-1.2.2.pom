@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.mikesafonov</groupId>
+  <artifactId>spring-boot-starter-smpp</artifactId>
+  <version>1.2.2</version>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <source.encoding>UTF-8</source.encoding>
+  </properties>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.16</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.restcomm.smpp</groupId>
+      <artifactId>ch-commons-util</artifactId>
+      <version>7.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.restcomm.smpp</groupId>
+      <artifactId>ch-commons-charset</artifactId>
+      <version>7.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.restcomm.smpp</groupId>
+      <artifactId>ch-commons-gsm</artifactId>
+      <version>7.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.restcomm.smpp</groupId>
+      <artifactId>ch-smpp</artifactId>
+      <version>5.1.0-113</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+      <version>2.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>2.0.1.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.17.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.devskiller</groupId>
+      <artifactId>jfairy</artifactId>
+      <version>0.6.4</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <version>2.4.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

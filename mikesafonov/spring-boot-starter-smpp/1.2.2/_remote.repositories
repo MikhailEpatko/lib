@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 29 16:37:02 MSK 2021
+spring-boot-starter-smpp-1.2.2.jar>=
+spring-boot-starter-smpp-1.2.2.pom>=
